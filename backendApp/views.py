@@ -1,5 +1,7 @@
 from django.shortcuts import render, HttpResponse
+from django.http import JsonResponse
 
 # Create your views here.
 def getOptimalPath(request):
-    return HttpResponse("test")
+    return JsonResponse({"index":"0"})
+    
