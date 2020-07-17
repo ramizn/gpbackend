@@ -2,7 +2,7 @@ from django.shortcuts import render, HttpResponse
 from django.http import JsonResponse
 import requests
 from random import randint
-from models import Driver
+from .models import Driver
 from django.contrib.auth.hashers import make_password, check_password
 # Create your views here.
 #"https://sokratisii.pythonanywhere.com/getoptimal?username="+username+"&passowrd="+password+"&
